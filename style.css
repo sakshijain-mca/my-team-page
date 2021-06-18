@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1px;
+}
+header{
+    width:100vw;
+    height:15vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top:1rem;
+    margin-top: 1rem;
+}
+h1{
+    
+    font-family: PT Serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36rem;
+line-height: 48rem;
+letter-spacing: -0.045em;
+
+color: #000000;
+}
+h3{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18rem;
+line-height: 27rem;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+header p{
+    width: 439rem;
+height: 87rem;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18rem;
+line-height: 27rem;
+
+color: #000000;
+}
+main{
+    width:100vw;
+    height:75vh;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 30vh 30vh ;
+    row-gap: 5rem;
+}
+
+/* .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+} */
+.name{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18rem;
+line-height: 27rem;
+/* identical to box height */
+color: #000000;
+}
+.designation{
+
+font-family: PT Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12rem;
+line-height: 16rem;
+/* identical to box height */
+text-transform: uppercase;
+color: #000000;
+transform: rotate(90deg);
+float: right;
+}
+.image{
+    width:238rem;
+    height:24vh;
+}
+.image-box{
+   margin-top:1vh;
+   width:20vw;
+   height:30vh;
+}
+footer{
+    width:100vw;
+    height:10vh;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14rem;
+line-height: 17rem;
+/* identical to box height */
+
+text-align: center;
+
+color: #A9A9A9;
+}
+
+
+
+
